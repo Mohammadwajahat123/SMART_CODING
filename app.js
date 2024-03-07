@@ -1,0 +1,15 @@
+"use strict";
+let firstName = "Eric";
+console.log(`Hello ${firstName} "Would you like to learn some python today"`);
+let quote = "A person never make a mistake never tried anything new";
+let author = "Albert Eienstein";
+console.log(` ${author} once said, "${quote}"`);
+let famousPerson = "SIR Zia U Khan is the best personality";
+let famousPersons = "Wajahat Hussain says";
+console.log(` ${famousPersons} "${famousPerson}`);
+let text = "Pakistan is the best country";
+console.log("uppercase:", text.toUpperCase());
+console.log("lowercase:", text.toLowerCase());
+console.log("titlecase:", text.replace(/\b\w/g, c => c.toUpperCase()));
+console.log("HELLO WORLD");
+console.log("WHAT IS GOING ON ALEN");
